@@ -1,105 +1,25 @@
 let quizData = {
     HTML: [
-        {
-            q: "1. Who invented HTML?",
-            options: ["Tim Berners-Lee", "Dennis Ritchie", "Charles Babbage", "Guido van Rossum"],
-            correct: 0
-        },
-        {
-            q: "2. What does HTML stand for?",
-            options: ["Hyperlinks and Text Markup Language", "Hyper Text Markup Language", "Home Tool Markup Language", "Highlevel Text Machine Language"],
-            correct: 1
-        },
-        {
-            q: "3. Largest heading tag?",
-            options: ["<h1>", "<h3>", "<h6>", "<header>"],
-            correct: 0
-        },
-        {
-            q: "4. Which tag is used for inserting a line break?",
-            options: ["<lb>", "<break>", "<br>", "<hr>"],
-            correct: 2
-        },
-        {
-            q: "5. Which tag is used to display an image?",
-            options: ["<pic>", "<src>", "<image>", "<img>"],
-            correct: 3
-        },
-        {
-            q: "6. HTML lists are of how many types?",
-            options: ["2", "3", "4", "5"],
-            correct: 1
-        },
-        {
-            q: "7. Which tag is used to create a hyperlink?",
-            options: ["<link>", "<hyper>", "<a>", "<href>"],
-            correct: 2
-        },
-        {
-            q: "8. Which attribute specifies the target URL in an anchor tag?",
-            options: ["link", "href", "src", "target"],
-            correct: 1
-        },
-        {
-            q: "9. Which tag is used for a table row?",
-            options: ["<td>", "<tr>", "<row>", "<th>"],
-            correct: 1
-        },
-        {
-            q: "10. Which tag defines table data (cell)?",
-            options: ["<tr>", "<table>", "<th>", "<td>"],
-            correct: 3
-        },
-        {
-            q: "11. Which HTML tag is used for a numbered list?",
-            options: ["<dl>", "<ul>", "<ol>", "<li>"],
-            correct: 2
-        },
-        {
-            q: "12. Which tag is used to insert a horizontal rule?",
-            options: ["<br>", "<line>", "<rule>", "<hr>"],
-            correct: 3
-        },
-        {
-            q: "13. What is the correct doctype for HTML5?",
-            options: ["<doctype html5>", "<html doctype>", "<!DOCTYPE html>", "<!DOCTYPE HTML5>"],
-            correct: 2
-        },
-        {
-            q: "14. Which HTML element is used to define important text?",
-            options: ["<i>", "<strong>", "<b>", "<important>"],
-            correct: 1
-        },
-        {
-            q: "15. Which tag is used to display a video?",
-            options: ["<vid>", "<media>", "<movie>", "<video>"],
-            correct: 3
-        },
-        {
-            q: "16. Which tag is used to display audio?",
-            options: ["<media>", "<audio>", "<sound>", "<music>"],
-            correct: 1
-        },
-        {
-            q: "17. Which attribute is used to provide alternative text for an image?",
-            options: ["href", "title", "alt", "src"],
-            correct: 2
-        },
-        {
-            q: "18. Which HTML element is used to define inline styles?",
-            options: ["<span>", "<style>", "<css>", "<script>"],
-            correct: 1
-        },
-        {
-            q: "19. Which HTML element is used to show a tooltip when mouse hovers?",
-            options: ["title", "tooltip", "alt", "hover"],
-            correct: 0
-        },
-        {
-            q: "20. Which attribute is used in HTML to open a link in a new tab?",
-            options: ["target='_blank'", "new='tab'", "open='new'", "href='new'"],
-            correct: 0
-        }
+        { q: "1. Who invented HTML?", options: ["Tim Berners-Lee", "Bill Gates", "Elon Musk", "Steve Jobs"], correct: 0 },
+        { q: "2. What does HTML stand for?", options: ["Hyper Trainer Marking Language", "Hyper Text Markup Language", "Hyper Tool Markup Language", "None"], correct: 1 },
+        { q: "3. Largest heading tag?", options: ["&lt;head&gt;", "&lt;h6&gt;", "&lt;h1&gt;", "&lt;heading&gt;"], correct: 2 },
+        { q: "4. Which tag is used for paragraph?", options: ["&lt;para&gt;", "&lt;p&gt;", "&lt;pg&gt;", "&lt;paragraph&gt;"], correct: 1 },
+        { q: "5. Which tag inserts a line break?", options: ["&lt;br&gt;", "&lt;lb&gt;", "&lt;break&gt;", "&lt;newline&gt;"], correct: 0 },
+        { q: "6. HTML is what type of language?", options: ["Programming", "Markup", "Scripting", "Network"], correct: 1 },
+        { q: "7. Which tag is used for images?", options: ["&lt;image&gt;", "&lt;src&gt;", "&lt;img&gt;", "&lt;picture&gt;"], correct: 2 },
+        { q: "8. Which tag creates hyperlink?", options: ["&lt;a&gt;", "&lt;link&gt;", "&lt;href&gt;", "&lt;url&gt;"], correct: 0 },
+        { q: "9. Default extension of HTML?", options: [".htm", ".html", ".web", ".doc"], correct: 1 },
+        { q: "10. HTML tables are created using?", options: ["&lt;tbl&gt;", "&lt;table&gt;", "&lt;tab&gt;", "&lt;tr&gt;"], correct: 1 },
+        { q: "11. HTML list tag?", options: ["&lt;ol&gt;, &lt;ul&gt;", "&lt;list&gt;", "&lt;li&gt;, &lt;ls&gt;", "&lt;ulist&gt;"], correct: 0 },
+        { q: "12. Which attribute sets image source?", options: ["href", "link", "src", "path"], correct: 2 },
+        { q: "13. Which tag defines metadata?", options: ["&lt;meta&gt;", "&lt;data&gt;", "&lt;head&gt;", "&lt;info&gt;"], correct: 0 },
+        { q: "14. Which attribute opens link in new tab?", options: ["open", "target='_blank'", "newtab", "link='_new'"], correct: 1 },
+        { q: "15. HTML tag for checkbox?", options: ["&lt;input type='checkbox'&gt;", "&lt;checkbox&gt;", "&lt;check&gt;", "&lt;tick&gt;"], correct: 0 },
+        { q: "16. Which tag is used for dropdown?", options: ["&lt;select&gt;", "&lt;dropdown&gt;", "&lt;optionbox&gt;", "&lt;list&gt;"], correct: 0 },
+        { q: "17. Which attribute adds tooltip?", options: ["hint", "title", "alt", "tooltip"], correct: 1 },
+        { q: "18. Which tag is used for forms?", options: ["&lt;form&gt;", "&lt;input&gt;", "&lt;action&gt;", "&lt;submit&gt;"], correct: 0 },
+        { q: "19. Which tag for inline frame?", options: ["&lt;iframe&gt;", "&lt;frame&gt;", "&lt;window&gt;", "&lt;embed&gt;"], correct: 0 },
+        { q: "20. Which tag highlights text?", options: ["&lt;highlight&gt;", "&lt;mark&gt;", "&lt;hl&gt;", "&lt;strong&gt;"], correct: 1 }
     ],
     CSS: [
         { q: "1. What does CSS stand for?", options: ["Creative Style System", "Colorful Style Sheet", "Cascading Style Sheets", "Computer Style Syntax"], correct: 2 },
@@ -167,30 +87,25 @@ let quizData = {
         { q: "19. Who was known as the Iron Man of India?", options: ["Mahatma Gandhi", "Subhash Chandra Bose", "Sardar Patel", "Bhagat Singh"], correct: 2 },
         { q: "20. Which is the national bird of India?", options: ["Sparrow", "Parrot", "Peacock", "Eagle"], correct: 2 }
     ]
-
 };
 
 let selectedCategory = null;
 let selectedCount = 0;
 let currentIndex = 0;
 let timerInterval;
-
 let correctCount = 0;
 let wrongCount = 0;
-
-const categoryMap = {
-    "HTML": "HTML",
-    "CSS": "CSS",
-    "JavaScript": "JavaScript",
-    "General Knowledge": "GK"
-};
 
 document.querySelectorAll("#option-category button").forEach(btn => {
     btn.addEventListener("click", () => {
         document.querySelectorAll("#option-category button").forEach(b => b.classList.remove("active"));
         btn.classList.add("active");
-        // selectedCategory = btn.innerText;
-        selectedCategory = categoryMap[btn.innerText];
+
+        const txt = btn.innerText.trim().toLowerCase();
+        if (txt === "gk" || txt === "general knowledge") selectedCategory = "GK";
+        else if (txt === "html") selectedCategory = "HTML";
+        else if (txt === "css") selectedCategory = "CSS";
+        else if (txt === "javascript" || txt === "js") selectedCategory = "JavaScript";
     });
 });
 
@@ -203,10 +118,7 @@ document.querySelectorAll("#question-category button").forEach(btn => {
 });
 
 document.querySelector(".btn-outline-success").addEventListener("click", () => {
-    if (!selectedCategory || !selectedCount) {
-        alert("Please select category and question count!");
-        return;
-    }
+    if (!selectedCategory || !selectedCount) return;
     startQuiz();
 });
 
@@ -215,7 +127,6 @@ const startQuiz = () => {
     correctCount = 0;
     wrongCount = 0;
     loadQuestion();
-    startTimer(15);
 };
 
 const loadQuestion = () => {
@@ -228,29 +139,27 @@ const loadQuestion = () => {
     const qObj = quizData[selectedCategory][currentIndex];
     let optionsHTML = "";
     qObj.options.forEach((opt, i) => {
-        optionsHTML += `<button class="btn btn-outline-primary w-100 my-2 p-2" onclick="checkAnswer(${i})">${opt}</button>`;
+        optionsHTML += `<button class="btn btn-outline-primary w-100 my-2 text-white" onclick="checkAnswer(${i})">${opt}</button>`;
     });
 
     document.querySelector(".quiz-box").innerHTML = `
-        <div class="d-flex justify-content-between mb-3">
+        <div class="d-flex justify-content-between mb-3 text-white">
             <h5>${selectedCategory} Quiz</h5>
             <div><span id="time">15</span>s</div>
         </div>
-        <h4>${qObj.q}</h4>
+        <h4 class="text-white">${qObj.q}</h4>
         <div class="mt-4">${optionsHTML}</div>
     `;
+
+    startTimer(15);
 };
 
 const checkAnswer = (selected) => {
     const qObj = quizData[selectedCategory][currentIndex];
-    if (selected === qObj.correct) {
-        correctCount++;
-    } else {
-        wrongCount++;
-    }
+    if (selected === qObj.correct) correctCount++;
+    else wrongCount++;
     currentIndex++;
     loadQuestion();
-    startTimer(15);
 };
 
 const startTimer = (seconds) => {
@@ -270,7 +179,6 @@ const startTimer = (seconds) => {
             wrongCount++;
             currentIndex++;
             loadQuestion();
-            startTimer(15);
         }
     }, 1000);
 };
@@ -289,53 +197,5 @@ const showResult = () => {
 };
 
 const goBack = () => {
-    document.querySelector(".quiz-box").innerHTML = `
-        <div class="option pt-5" id="option-category">
-            <h4 id="option-title" class="text-center text-white">Select Quiz Category</h4>
-            <div id="quiz-category" class="text-center mt-4">
-                <button type="button" class="btn btn-outline-primary p-3 col-4">HTML</button>
-                <button type="button" class="btn btn-outline-primary p-3 col-4 ms-3">CSS</button>
-                <button type="button" class="btn btn-outline-primary p-3 col-4 mt-4">JavaScript</button>
-                <button type="button" class="btn btn-outline-primary p-3 col-4 ms-3 mt-4">General Knowledge</button>
-            </div>
-        </div>
-
-        <div class="question my-5" id="question-category">
-            <h4 id="question-title" class="text-center text-white">No. of Questions</h4>
-            <div id="question-category" class="text-center mt-4">
-                <button type="button" class="btn btn-outline-primary col-1 me-2">5</button>
-                <button type="button" class="btn btn-outline-primary col-1 me-2">10</button>
-                <button type="button" class="btn btn-outline-primary col-1 me-2">15</button>
-                <button type="button" class="btn btn-outline-primary col-1">20</button>
-            </div>
-        </div>
-        <button type="button" class="btn btn-outline-success col-2 p-3">Start Quiz</button>
-    `;
-
-    document.querySelectorAll("#option-category button").forEach(btn => {
-        btn.addEventListener("click", () => {
-            document.querySelectorAll("#option-category button").forEach(b => b.classList.remove("active"));
-            btn.classList.add("active");
-            // selectedCategory = btn.innerText;
-            selectedCategory = categoryMap[btn.innerText];
-
-        });
-    });
-
-    document.querySelectorAll("#question-category button").forEach(btn => {
-        btn.addEventListener("click", () => {
-            document.querySelectorAll("#question-category button").forEach(b => b.classList.remove("active"));
-            btn.classList.add("active");
-            selectedCount = parseInt(btn.innerText);
-        });
-    });
-
-    document.querySelector(".btn-outline-success").addEventListener("click", () => {
-        if (!selectedCategory || !selectedCount) {
-            alert("Please select category and question count!");
-            return;
-        }
-        startQuiz();
-    });
+    location.reload();
 };
-
