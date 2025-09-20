@@ -1,4 +1,4 @@
-et quizData = {
+let quizData = {
     HTML: [
         { q: "1. Who invented HTML?", options: ["Tim Berners-Lee", "Bill Gates", "Elon Musk", "Steve Jobs"], correct: 0 },
         { q: "2. What does HTML stand for?", options: ["Hyper Trainer Marking Language", "Hyper Text Markup Language", "Hyper Tool Markup Language", "None"], correct: 1 },
