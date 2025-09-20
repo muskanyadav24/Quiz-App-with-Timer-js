@@ -45,7 +45,7 @@ et quizData = {
     ],
     JavaScript: [
         { q: "1. Who developed JavaScript?", options: ["Tim Berners-Lee", "Brendan Eich", "Guido van Rossum", "Bill Gates"], correct: 1 },
-        { q: "2. Which symbol is used for single-line comments?", options: ["//", "/* */", "#" ], correct: 0 },
+        { q: "2. Which symbol is used for single-line comments?", options: ["//", "/* */", "#","-- ], correct: 0 },
         { q: "3. Which keyword is used to declare a variable in ES6?", options: ["var", "let", "define", "new"], correct: 1 },
         { q: "4. Which company developed JavaScript?", options: ["Netscape", "Microsoft", "Oracle", "Sun Microsystems"], correct: 0 },
         { q: "5. Which of the following is NOT a JavaScript data type?", options: ["String", "Boolean", "Float", "Undefined"], correct: 2 },
